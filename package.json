@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-http-header-parser",
+  "desription": "Parse raw HTTP headers that are stored in a single string buffer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/http-header-parser",
+  "repository": {
+    "url": "git@github.com:quiverjs/http-header-parser.git"
+  },
+  "dependencies": {
+    "quiver-error": ">=0.0.2"
+  },
+  "devDependencies": {
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/http-header-parser/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/http-header-parser",
+  "scripts": {
+    "test": "make test"
+  }
+}
